@@ -4,6 +4,12 @@
   "description": "## Your Task",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +22,34 @@
   "bugs": {
     "url": "https://github.com/7steph7gmailcom/React-Portfolio/issues"
   },
-  "homepage": "https://github.com/7steph7gmailcom/React-Portfolio#readme"
+  "homepage": "https://github.com/7steph7gmailcom/React-Portfolio#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.3.0",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.4",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^2.1.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
