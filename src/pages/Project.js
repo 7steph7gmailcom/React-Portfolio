@@ -2,11 +2,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../styles/project.css";
-import PasswordGenImg from "../images/password-generator-screenshot.png";
-import TeamGenImg from "../images/team-generator-screenshot.png";
-import EmployeeDemo from "../images/Employee-Tracker-Demo.gif";
-import ReadmeDemo from "../images/README-Generator-Demo.gif";
+import "/styles/project.css";
+import PasswordGenImg from "../images/PasswordGenerator.png";
+// import TeamGenImg from "../images/team-generator-screenshot.png";
+// import EmployeeDemo from "../images/Employee-Tracker-Demo.gif";
+// import ReadmeDemo from "../images/README-Generator-Demo.gif";
+import { distanceAndSkiddingToXY } from "@popperjs/core/lib/modifiers/offset";
 
 
 
@@ -68,7 +69,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src={}
+                src={PasswordGenImg}
                 alt=""
               />
             </a>
@@ -87,7 +88,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src={}
+                src={DineIn.jpg}
                 alt=""
               />
             </a>
@@ -115,7 +116,7 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-5"> VIDEO: Employee-Tracker</h4>
+              <h4 className="samp-text-5"> Employee-Tracker</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -131,7 +132,7 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-6">VIDEO: ReadMe Generator</h4>
+              <h4 className="samp-text-6"> ReadMe Generator</h4>
             </a>
           </Col>
         </Row>

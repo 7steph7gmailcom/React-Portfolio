@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import "../styles/contact.css";
+// import "./contact.css";
+import "./contact.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
