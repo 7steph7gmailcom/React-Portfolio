@@ -2,12 +2,13 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "/styles/project.css";
+// import "../project.css";
 import PasswordGenImg from "../images/PasswordGenerator.png";
-// import TeamGenImg from "../images/team-generator-screenshot.png";
-// import EmployeeDemo from "../images/Employee-Tracker-Demo.gif";
-// import ReadmeDemo from "../images/README-Generator-Demo.gif";
-import { distanceAndSkiddingToXY } from "@popperjs/core/lib/modifiers/offset";
+import TeamGenPng from "../images/TeamGen.png";
+import EmployeePng from "../images/Employee.png";
+import ReadMePng from "../images/ReadMe.png";
+import DineInJpg from "../images/DineIn.jpg";
+// import { distanceAndSkiddingToXY } from "@popperjs/core/lib/modifiers/offset";
 
 
 
@@ -30,17 +31,16 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src={TeamGenImg}
+                src={TeamGenPng}
                 alt="An example of the file created after using the application."
               />
             </a>
             <a
-              href=""
+              href="https://watch.screencastify.com/v/8znTbApicbEgNA0oaTMG"
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-1">VIDEO: Team Profile Generator</h4>
-              {/* https://watch.screencastify.com/v/8znTbApicbEgNA0oaTMG */}
+              <h4 className="samp-text-1">Team Profile Generator</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -59,12 +59,12 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-4">LIVE: Password Generator</h4>
+              <h4 className="samp-text-4">Password Generator</h4>
             </a>
           </Col>
           <Col auto className="sample">
             <a
-              href=""
+              href="https://github.com/7steph7gmailcom/Week3RandomPasswordGen"
               target="_blank"
               rel="noreferrer"
             >
@@ -78,7 +78,7 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-3">LIVE: Teacher-Force</h4>
+              <h4 className="samp-text-3">DineIn Meal Planning App</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -88,7 +88,7 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src={DineIn.jpg}
+                src={DineInJpg}
                 alt=""
               />
             </a>
@@ -97,7 +97,7 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <h4 className="samp-text-2">LIVE: Food and Cocktails</h4>
+              <h4 className="samp-text-2">Food and Cocktails</h4>
             </a>
           </Col>
           <Col auto className="sample">
@@ -107,12 +107,12 @@ function Project() {
               rel="noreferrer"
             >
               <img
-                src={EmployeeDemo}
+                src={EmployeePng}
                 alt="Process of adding/updating employees is shown"
               />
             </a>
             <a
-              href=""
+              href="https://watch.screencastify.com/v/tVjBi3xtnlcc6eXxJBPK"
               target="_blank"
               rel="noreferrer"
             >
@@ -125,10 +125,10 @@ function Project() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={ReadmeDemo} alt="Process of creating a new README" />
+              <img src={ReadMePng} alt="Process of creating a new ReadMe" />
             </a>
             <a
-              href=""
+              href="https://watch.screencastify.com/v/8znTbApicbEgNA0oaTMG"
               target="_blank"
               rel="noreferrer"
             >

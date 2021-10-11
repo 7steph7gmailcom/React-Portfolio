@@ -1,6 +1,6 @@
 import React from "react";
 // import "../aboutMe.css";
-// import Self from "../images/Self.png";
+import Self from "../images/Self.jpg";
 
 export default function About() {
   return (
