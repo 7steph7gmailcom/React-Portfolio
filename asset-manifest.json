@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ee5c7161.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.0bb402e5.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.0bb402e5.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.f7912fdf.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.f7912fdf.js.map",
+    "static/js/2.b6d407e8.chunk.js": "/React-Portfolio/static/js/2.b6d407e8.chunk.js",
+    "static/js/2.b6d407e8.chunk.js.map": "/React-Portfolio/static/js/2.b6d407e8.chunk.js.map",
+    "static/js/3.2836ce13.chunk.js": "/React-Portfolio/static/js/3.2836ce13.chunk.js",
+    "static/js/3.2836ce13.chunk.js.map": "/React-Portfolio/static/js/3.2836ce13.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.ee5c7161.chunk.css.map": "/React-Portfolio/static/css/main.ee5c7161.chunk.css.map",
+    "static/js/2.b6d407e8.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.b6d407e8.chunk.js.LICENSE.txt",
+    "static/media/DineIn.c7195a0d.jpg": "/React-Portfolio/static/media/DineIn.c7195a0d.jpg",
+    "static/media/Employee.fab74073.png": "/React-Portfolio/static/media/Employee.fab74073.png",
+    "static/media/PasswordGenerator.2f8b45ea.png": "/React-Portfolio/static/media/PasswordGenerator.2f8b45ea.png",
+    "static/media/ReadMe.a52a95f9.png": "/React-Portfolio/static/media/ReadMe.a52a95f9.png",
+    "static/media/Self.15c4d0a0.jpg": "/React-Portfolio/static/media/Self.15c4d0a0.jpg",
+    "static/media/TeamGen.618d5b41.png": "/React-Portfolio/static/media/TeamGen.618d5b41.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7912fdf.js",
+    "static/js/2.b6d407e8.chunk.js",
+    "static/css/main.ee5c7161.chunk.css",
+    "static/js/main.0bb402e5.chunk.js"
+  ]
+}
